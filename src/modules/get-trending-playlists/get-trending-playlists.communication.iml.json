@@ -1,0 +1,15 @@
+{
+  // Request to API endpoint with parameter "id" defined in Mappable parameters.
+  "url": "/playlists/trending", // Relative to base URL
+  "method": "GET",
+  "headers": {}, // Additional HTTP headers
+  "qs": {
+    "app_name": "makedotcom",
+    "query": "{{parameters.time}}"
+  }, // Query string
+
+  // Response handling
+  "response": {
+    "output": "{{body}}" // Return JSON response body as an output bundle.
+  }
+}

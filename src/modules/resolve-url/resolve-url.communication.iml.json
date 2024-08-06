@@ -1,0 +1,15 @@
+{
+  // Request to API endpoint with parameter "id" defined in Mappable parameters.
+  "url": "/resolve", // Relative to base URL
+  "method": "GET",
+  "headers": {}, // Additional HTTP headers
+  "qs": {
+    "query": "{{parameters.url}}",
+    "app_name": "makedotcom"
+  }, // Query string
+
+  // Response handling
+  "response": {
+    "output": "{{body}}" // Return JSON response body as an output bundle.
+  }
+}

@@ -23,7 +23,16 @@
       "searchTracks",
       "getUndergroundTrendingTrack",
       "getTrackDetails",
-      "getTrackTopListeners"
+      "getTrackTopListeners",
+      "getPlaylist",
+      "searchPlaylists",
+      "getPlaylistByHandleAndSlug",
+      "getTrendingPlaylists",
+      "getPlaylistAccess",
+      "getPlaylistTracks",
+      "resolveURL",
+      "getDeveloperApp",
+      "getDeveloperAppsByUser"
     ]
   }
 ]
