@@ -1,29 +1,29 @@
 [
-	{
-		"label": "Other",
-		"modules": [
-			"getUser",
-			"getUserByHandle",
-			"getTracksByUser",
-			"searchUsers",
-			"getFavorites",
-			"getReposts",
-			"getFollowers",
-			"getFollowering",
-			"getSubscribers",
-			"getSupporters",
-			"getSupportedUsers",
-			"getMostUsedTags",
-			"getAITracksByHandle",
-			"getRelatedUsers",
-			"getAuthorizedApps",
-			"getConnectedWallets",
-			"getTrack",
-			"getTrendingTrack",
-			"searchTracks",
-			"getUndergroundTrendingTrack",
-			"getTrackDetails",
-			"getTrackTopListeners"
-		]
-	}
+  {
+    "label": "Other",
+    "modules": [
+      "getUser",
+      "getUserByHandle",
+      "getTracksByUser",
+      "searchUsers",
+      "getFavorites",
+      "getReposts",
+      "getFollowers",
+      "getFollowering",
+      "getSubscribers",
+      "getSupporters",
+      "getSupportedUsers",
+      "getMostUsedTags",
+      "getAITracksByHandle",
+      "getRelatedUsers",
+      "getAuthorizedApps",
+      "getConnectedWallets",
+      "getTrack",
+      "getTrendingTrack",
+      "searchTracks",
+      "getUndergroundTrendingTrack",
+      "getTrackDetails",
+      "getTrackTopListeners"
+    ]
+  }
 ]

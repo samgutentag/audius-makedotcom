@@ -1,9 +1,9 @@
 [
-	// Defines "handle" as mandatory module input parameter.
-	{
-		"name": "handle",        // Makes value accesible via "{{parameters.handle}}".
-		"type": "text",  // Sets the type to text.
-		"label": "User Handle",  // Sets the user friendly label visible in the module.
-		"required": true     // Sets the parameter as mandatory.
-	}
+  // Defines "handle" as mandatory module input parameter.
+  {
+    "name": "handle", // Makes value accesible via "{{parameters.handle}}".
+    "type": "text", // Sets the type to text.
+    "label": "User Handle", // Sets the user friendly label visible in the module.
+    "required": true // Sets the parameter as mandatory.
+  }
 ]

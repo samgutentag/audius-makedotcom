@@ -1,20 +1,20 @@
 {
-	// Request to API endpoint.
-	"url": "/users/search",                       // Relative to base URL
-	"method": "GET",
-	"headers": {},                         // Additional HTTP headers
-		"qs": {
-			"query": "{{parameters.search}}",
-		"app_name" : "makedotcom"
-	},                               // Query string
+  // Request to API endpoint.
+  "url": "/users/search", // Relative to base URL
+  "method": "GET",
+  "headers": {}, // Additional HTTP headers
+  "qs": {
+    "query": "{{parameters.search}}",
+    "app_name": "makedotcom"
+  }, // Query string
 
-	// Response handling
-	"response": {
-		// Splits array from API response into bundles.
-		// See documentation at: https://docs.integromat.com/apps/app-blocks/api/pagination
-		"iterate": "{{body.users}}",       // Iterates "users" array from API response to split it into individual items.
+  // Response handling
+  "response": {
+    // Splits array from API response into bundles.
+    // See documentation at: https://docs.integromat.com/apps/app-blocks/api/pagination
+    "iterate": "{{body.users}}", // Iterates "users" array from API response to split it into individual items.
 
-		"output": "{{item}}",              // Outputs whole each iterated "item" object as separate bundle.
-		"limit": "{{parameters.limit}}"    // Limits number of output bundles as requested by user (even if API returns more items).
-	}
+    "output": "{{item}}", // Outputs whole each iterated "item" object as separate bundle.
+    "limit": "{{parameters.limit}}" // Limits number of output bundles as requested by user (even if API returns more items).
+  }
 }

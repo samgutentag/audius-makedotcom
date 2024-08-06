@@ -1,14 +1,14 @@
 {
-	// Request to API endpoint with parameter "id" defined in Mappable parameters.
-	"url": "/users/{{parameters.id}}/connected_wallets",      // Relative to base URL
-	"method": "GET",
-	"headers": {},                          // Additional HTTP headers
-	"qs": {
-		"app_name" : "makedotcom"
-	},                               // Query string
+  // Request to API endpoint with parameter "id" defined in Mappable parameters.
+  "url": "/users/{{parameters.id}}/connected_wallets", // Relative to base URL
+  "method": "GET",
+  "headers": {}, // Additional HTTP headers
+  "qs": {
+    "app_name": "makedotcom"
+  }, // Query string
 
-	// Response handling
-	"response": {
-		"output": "{{body}}"                // Return JSON response body as an output bundle.
-	}
+  // Response handling
+  "response": {
+    "output": "{{body}}" // Return JSON response body as an output bundle.
+  }
 }

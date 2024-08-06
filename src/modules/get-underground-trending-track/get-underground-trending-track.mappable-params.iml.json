@@ -1,15 +1,15 @@
 [
-	// // Defines "id" as mandatory module input parameter.
-	// {
-	// 	"name": "genre",        // Makes value accesible via "{{parameters.id}}".
-	// 	"type": "text",  // Sets the type to text.
-	// 	"label": "Genre",  // Sets the user friendly label visible in the module.
-	// 	"required": false     // Sets the parameter as mandatory.
-	// },
-	// {
-	// 	"name": "time",        // Makes value accesible via "{{parameters.id}}".
-	// 	"type": "text",  // Sets the type to text.
-	// 	"label": "time",  // Sets the user friendly label visible in the module.
-	// 	"required": false     // Sets the parameter as mandatory.
-	// }
+  // // Defines "id" as mandatory module input parameter.
+  // {
+  // 	"name": "genre",        // Makes value accesible via "{{parameters.id}}".
+  // 	"type": "text",  // Sets the type to text.
+  // 	"label": "Genre",  // Sets the user friendly label visible in the module.
+  // 	"required": false     // Sets the parameter as mandatory.
+  // },
+  // {
+  // 	"name": "time",        // Makes value accesible via "{{parameters.id}}".
+  // 	"type": "text",  // Sets the type to text.
+  // 	"label": "time",  // Sets the user friendly label visible in the module.
+  // 	"required": false     // Sets the parameter as mandatory.
+  // }
 ]
