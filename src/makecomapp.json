@@ -201,6 +201,38 @@
                     "scope": "modules/get-supporters/get-supporters.scope.iml.json"
                 }
             },
+            "getTrack": {
+                "label": "get-track",
+                "description": "Get a track by ID",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-track/get-track.communication.iml.json",
+                    "staticParams": "modules/get-track/get-track.static-params.iml.json",
+                    "mappableParams": "modules/get-track/get-track.mappable-params.iml.json",
+                    "interface": "modules/get-track/get-track.interface.iml.json",
+                    "samples": "modules/get-track/get-track.samples.iml.json",
+                    "scope": "modules/get-track/get-track.scope.iml.json"
+                }
+            },
+            "getTrackDetails": {
+                "label": "get-track-details",
+                "description": "inspect a track",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-track-details/get-track-details.communication.iml.json",
+                    "staticParams": "modules/get-track-details/get-track-details.static-params.iml.json",
+                    "mappableParams": "modules/get-track-details/get-track-details.mappable-params.iml.json",
+                    "interface": "modules/get-track-details/get-track-details.interface.iml.json",
+                    "samples": "modules/get-track-details/get-track-details.samples.iml.json",
+                    "scope": "modules/get-track-details/get-track-details.scope.iml.json"
+                }
+            },
             "getTracksByUser": {
                 "label": "get-tracks-by-user",
                 "description": "Gets the tracks created by a user using their user ID",
@@ -215,6 +247,54 @@
                     "interface": "modules/get-tracks-by-user/get-tracks-by-user.interface.iml.json",
                     "samples": "modules/get-tracks-by-user/get-tracks-by-user.samples.iml.json",
                     "scope": "modules/get-tracks-by-user/get-tracks-by-user.scope.iml.json"
+                }
+            },
+            "getTrackTopListeners": {
+                "label": "get-track-top-listeners",
+                "description": "Get users that have listened to a track the most",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-track-top-listeners/get-track-top-listeners.communication.iml.json",
+                    "staticParams": "modules/get-track-top-listeners/get-track-top-listeners.static-params.iml.json",
+                    "mappableParams": "modules/get-track-top-listeners/get-track-top-listeners.mappable-params.iml.json",
+                    "interface": "modules/get-track-top-listeners/get-track-top-listeners.interface.iml.json",
+                    "samples": "modules/get-track-top-listeners/get-track-top-listeners.samples.iml.json",
+                    "scope": "modules/get-track-top-listeners/get-track-top-listeners.scope.iml.json"
+                }
+            },
+            "getTrendingTrack": {
+                "label": "get-trending-tracks",
+                "description": "get the top 100 trending (most popular) tracks on Audius",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-trending-track/get-trending-track.communication.iml.json",
+                    "staticParams": "modules/get-trending-track/get-trending-track.static-params.iml.json",
+                    "mappableParams": "modules/get-trending-track/get-trending-track.mappable-params.iml.json",
+                    "interface": "modules/get-trending-track/get-trending-track.interface.iml.json",
+                    "samples": "modules/get-trending-track/get-trending-track.samples.iml.json",
+                    "scope": "modules/get-trending-track/get-trending-track.scope.iml.json"
+                }
+            },
+            "getUndergroundTrendingTrack": {
+                "label": "get-underground-trending-tracks",
+                "description": "get the top 100 trending underground tracks on Audius",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-underground-trending-track/get-underground-trending-track.communication.iml.json",
+                    "staticParams": "modules/get-underground-trending-track/get-underground-trending-track.static-params.iml.json",
+                    "mappableParams": "modules/get-underground-trending-track/get-underground-trending-track.mappable-params.iml.json",
+                    "interface": "modules/get-underground-trending-track/get-underground-trending-track.interface.iml.json",
+                    "samples": "modules/get-underground-trending-track/get-underground-trending-track.samples.iml.json",
+                    "scope": "modules/get-underground-trending-track/get-underground-trending-track.scope.iml.json"
                 }
             },
             "getUser": {
@@ -247,6 +327,21 @@
                     "interface": "modules/get-user-by-handle/get-user-by-handle.interface.iml.json",
                     "samples": "modules/get-user-by-handle/get-user-by-handle.samples.iml.json",
                     "scope": "modules/get-user-by-handle/get-user-by-handle.scope.iml.json"
+                }
+            },
+            "searchTracks": {
+                "label": "search-tracks",
+                "description": "Search for tracks that match the given query",
+                "moduleType": "search",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/search-tracks/search-tracks.communication.iml.json",
+                    "staticParams": "modules/search-tracks/search-tracks.static-params.iml.json",
+                    "mappableParams": "modules/search-tracks/search-tracks.mappable-params.iml.json",
+                    "interface": "modules/search-tracks/search-tracks.interface.iml.json",
+                    "samples": "modules/search-tracks/search-tracks.samples.iml.json",
+                    "scope": "modules/search-tracks/search-tracks.scope.iml.json"
                 }
             },
             "searchUsers": {
@@ -327,8 +422,28 @@
                         "remote": "getSupporters"
                     },
                     {
+                        "local": "getTrack",
+                        "remote": "getTrack"
+                    },
+                    {
+                        "local": "getTrackDetails",
+                        "remote": "getTrackDetails"
+                    },
+                    {
                         "local": "getTracksByUser",
                         "remote": "getTracksByUser"
+                    },
+                    {
+                        "local": "getTrackTopListeners",
+                        "remote": "getTrackTopListeners"
+                    },
+                    {
+                        "local": "getTrendingTrack",
+                        "remote": "getTrendingTrack"
+                    },
+                    {
+                        "local": "getUndergroundTrendingTrack",
+                        "remote": "getUndergroundTrendingTrack"
                     },
                     {
                         "local": "getUser",
@@ -339,6 +454,10 @@
                         "remote": "getUserByHandle"
                     },
                     {
+                        "local": "searchTracks",
+                        "remote": "searchTracks"
+                    },
+                    {
                         "local": "searchUsers",
                         "remote": "searchUsers"
                     }
@@ -347,7 +466,7 @@
                 "rpc": [],
                 "webhook": []
             },
-            "apikeyFile": "../.secrets/apikey"
+            "apikeyFile": "../.secrets/apikey3"
         }
     ]
 }

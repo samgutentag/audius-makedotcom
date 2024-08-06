@@ -17,7 +17,13 @@
 			"getAITracksByHandle",
 			"getRelatedUsers",
 			"getAuthorizedApps",
-			"getConnectedWallets"
+			"getConnectedWallets",
+			"getTrack",
+			"getTrendingTrack",
+			"searchTracks",
+			"getUndergroundTrendingTrack",
+			"getTrackDetails",
+			"getTrackTopListeners"
 		]
 	}
 ]
