@@ -1,0 +1,9 @@
+[
+	// Defines "id" as mandatory module input parameter.
+	{
+		"name": "app_name",        // Makes value accesible via "{{parameters.id}}".
+		"type": "text",  // Sets the type to text.
+		"label": "App Name",  // Sets the user friendly label visible in the module.
+		"required": false     // Sets the parameter as mandatory.
+	}
+]

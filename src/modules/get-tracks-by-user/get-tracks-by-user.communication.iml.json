@@ -1,0 +1,14 @@
+{
+	// Request to API endpoint with parameter "id" defined in Mappable parameters.
+	"url": "/users/{{parameters.id}}/tracks",      // Relative to base URL
+	"method": "GET",
+	"headers": {},                          // Additional HTTP headers
+	"qs": {
+		"app_name" : "makedotcom"
+	}, 
+
+	// Response handling
+	"response": {
+		"output": "{{body}}"                // Return JSON response body as an output bundle.
+	}
+}

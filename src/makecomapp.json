@@ -1,0 +1,353 @@
+{
+    "fileVersion": 1,
+    "generalCodeFiles": {
+        "base": "general/base.iml.json",
+        "common": null,
+        "readme": "README.md",
+        "groups": "modules/groups.json"
+    },
+    "components": {
+        "connection": {},
+        "module": {
+            "getAITracksByHandle": {
+                "label": "get-ai-tracks-by-handle",
+                "description": "Gets the AI gnerated tracks attributed to a user using the user's handle",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-aitracks-by-handle/get-aitracks-by-handle.communication.iml.json",
+                    "staticParams": "modules/get-aitracks-by-handle/get-aitracks-by-handle.static-params.iml.json",
+                    "mappableParams": "modules/get-aitracks-by-handle/get-aitracks-by-handle.mappable-params.iml.json",
+                    "interface": "modules/get-aitracks-by-handle/get-aitracks-by-handle.interface.iml.json",
+                    "samples": "modules/get-aitracks-by-handle/get-aitracks-by-handle.samples.iml.json",
+                    "scope": "modules/get-aitracks-by-handle/get-aitracks-by-handle.scope.iml.json"
+                }
+            },
+            "getAuthorizedApps": {
+                "label": "get-authorized-apps",
+                "description": "Get the apps that the user has authorized to write to their account",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-authorized-apps/get-authorized-apps.communication.iml.json",
+                    "staticParams": "modules/get-authorized-apps/get-authorized-apps.static-params.iml.json",
+                    "mappableParams": "modules/get-authorized-apps/get-authorized-apps.mappable-params.iml.json",
+                    "interface": "modules/get-authorized-apps/get-authorized-apps.interface.iml.json",
+                    "samples": "modules/get-authorized-apps/get-authorized-apps.samples.iml.json",
+                    "scope": "modules/get-authorized-apps/get-authorized-apps.scope.iml.json"
+                }
+            },
+            "getConnectedWallets": {
+                "label": "get-connected-wallets",
+                "description": "Get the user's ERC and SPL connected wallets",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-connected-wallets/get-connected-wallets.communication.iml.json",
+                    "staticParams": "modules/get-connected-wallets/get-connected-wallets.static-params.iml.json",
+                    "mappableParams": "modules/get-connected-wallets/get-connected-wallets.mappable-params.iml.json",
+                    "interface": "modules/get-connected-wallets/get-connected-wallets.interface.iml.json",
+                    "samples": "modules/get-connected-wallets/get-connected-wallets.samples.iml.json",
+                    "scope": "modules/get-connected-wallets/get-connected-wallets.scope.iml.json"
+                }
+            },
+            "getFavorites": {
+                "label": "get-favorites",
+                "description": "Gets a user's favorite tracks",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-favorites/get-favorites.communication.iml.json",
+                    "staticParams": "modules/get-favorites/get-favorites.static-params.iml.json",
+                    "mappableParams": "modules/get-favorites/get-favorites.mappable-params.iml.json",
+                    "interface": "modules/get-favorites/get-favorites.interface.iml.json",
+                    "samples": "modules/get-favorites/get-favorites.samples.iml.json",
+                    "scope": "modules/get-favorites/get-favorites.scope.iml.json"
+                }
+            },
+            "getFollowers": {
+                "label": "get-followers",
+                "description": "Get all users that follow the provided user",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-followers/get-followers.communication.iml.json",
+                    "staticParams": "modules/get-followers/get-followers.static-params.iml.json",
+                    "mappableParams": "modules/get-followers/get-followers.mappable-params.iml.json",
+                    "interface": "modules/get-followers/get-followers.interface.iml.json",
+                    "samples": "modules/get-followers/get-followers.samples.iml.json",
+                    "scope": "modules/get-followers/get-followers.scope.iml.json"
+                }
+            },
+            "getFollowering": {
+                "label": "get-following",
+                "description": "Get all users that the provided user follows",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-followering/get-followering.communication.iml.json",
+                    "staticParams": "modules/get-followering/get-followering.static-params.iml.json",
+                    "mappableParams": "modules/get-followering/get-followering.mappable-params.iml.json",
+                    "interface": "modules/get-followering/get-followering.interface.iml.json",
+                    "samples": "modules/get-followering/get-followering.samples.iml.json",
+                    "scope": "modules/get-followering/get-followering.scope.iml.json"
+                }
+            },
+            "getMostUsedTags": {
+                "label": "get-most-used-tags",
+                "description": "Get the most used track tags by a user",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-most-used-tags/get-most-used-tags.communication.iml.json",
+                    "staticParams": "modules/get-most-used-tags/get-most-used-tags.static-params.iml.json",
+                    "mappableParams": "modules/get-most-used-tags/get-most-used-tags.mappable-params.iml.json",
+                    "interface": "modules/get-most-used-tags/get-most-used-tags.interface.iml.json",
+                    "samples": "modules/get-most-used-tags/get-most-used-tags.samples.iml.json",
+                    "scope": "modules/get-most-used-tags/get-most-used-tags.scope.iml.json"
+                }
+            },
+            "getRelatedUsers": {
+                "label": "get-related-users",
+                "description": "Gets a list of users that might be on interest to followers of this user",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-related-users/get-related-users.communication.iml.json",
+                    "staticParams": "modules/get-related-users/get-related-users.static-params.iml.json",
+                    "mappableParams": "modules/get-related-users/get-related-users.mappable-params.iml.json",
+                    "interface": "modules/get-related-users/get-related-users.interface.iml.json",
+                    "samples": "modules/get-related-users/get-related-users.samples.iml.json",
+                    "scope": "modules/get-related-users/get-related-users.scope.iml.json"
+                }
+            },
+            "getReposts": {
+                "label": "get-reposts",
+                "description": "Gets a user's reposts",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-reposts/get-reposts.communication.iml.json",
+                    "staticParams": "modules/get-reposts/get-reposts.static-params.iml.json",
+                    "mappableParams": "modules/get-reposts/get-reposts.mappable-params.iml.json",
+                    "interface": "modules/get-reposts/get-reposts.interface.iml.json",
+                    "samples": "modules/get-reposts/get-reposts.samples.iml.json",
+                    "scope": "modules/get-reposts/get-reposts.scope.iml.json"
+                }
+            },
+            "getSubscribers": {
+                "label": "get-subscribers",
+                "description": "Get all users that subscribe to the provided user",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-subscribers/get-subscribers.communication.iml.json",
+                    "staticParams": "modules/get-subscribers/get-subscribers.static-params.iml.json",
+                    "mappableParams": "modules/get-subscribers/get-subscribers.mappable-params.iml.json",
+                    "interface": "modules/get-subscribers/get-subscribers.interface.iml.json",
+                    "samples": "modules/get-subscribers/get-subscribers.samples.iml.json",
+                    "scope": "modules/get-subscribers/get-subscribers.scope.iml.json"
+                }
+            },
+            "getSupportedUsers": {
+                "label": "get-supported-users",
+                "description": "Get all users that the provided user supports",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-supported-users/get-supported-users.communication.iml.json",
+                    "staticParams": "modules/get-supported-users/get-supported-users.static-params.iml.json",
+                    "mappableParams": "modules/get-supported-users/get-supported-users.mappable-params.iml.json",
+                    "interface": "modules/get-supported-users/get-supported-users.interface.iml.json",
+                    "samples": "modules/get-supported-users/get-supported-users.samples.iml.json",
+                    "scope": "modules/get-supported-users/get-supported-users.scope.iml.json"
+                }
+            },
+            "getSupporters": {
+                "label": "get-supporters",
+                "description": "Get all users that support the provided user",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-supporters/get-supporters.communication.iml.json",
+                    "staticParams": "modules/get-supporters/get-supporters.static-params.iml.json",
+                    "mappableParams": "modules/get-supporters/get-supporters.mappable-params.iml.json",
+                    "interface": "modules/get-supporters/get-supporters.interface.iml.json",
+                    "samples": "modules/get-supporters/get-supporters.samples.iml.json",
+                    "scope": "modules/get-supporters/get-supporters.scope.iml.json"
+                }
+            },
+            "getTracksByUser": {
+                "label": "get-tracks-by-user",
+                "description": "Gets the tracks created by a user using their user ID",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-tracks-by-user/get-tracks-by-user.communication.iml.json",
+                    "staticParams": "modules/get-tracks-by-user/get-tracks-by-user.static-params.iml.json",
+                    "mappableParams": "modules/get-tracks-by-user/get-tracks-by-user.mappable-params.iml.json",
+                    "interface": "modules/get-tracks-by-user/get-tracks-by-user.interface.iml.json",
+                    "samples": "modules/get-tracks-by-user/get-tracks-by-user.samples.iml.json",
+                    "scope": "modules/get-tracks-by-user/get-tracks-by-user.scope.iml.json"
+                }
+            },
+            "getUser": {
+                "label": "get-user",
+                "description": "Gets a single user by their user ID",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-user/get-user.communication.iml.json",
+                    "staticParams": "modules/get-user/get-user.static-params.iml.json",
+                    "mappableParams": "modules/get-user/get-user.mappable-params.iml.json",
+                    "interface": "modules/get-user/get-user.interface.iml.json",
+                    "samples": "modules/get-user/get-user.samples.iml.json",
+                    "scope": "modules/get-user/get-user.scope.iml.json"
+                }
+            },
+            "getUserByHandle": {
+                "label": "get-user-by-handle",
+                "description": "Gets a single user by their handle",
+                "moduleType": "action",
+                "actionCrud": "read",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/get-user-by-handle/get-user-by-handle.communication.iml.json",
+                    "staticParams": "modules/get-user-by-handle/get-user-by-handle.static-params.iml.json",
+                    "mappableParams": "modules/get-user-by-handle/get-user-by-handle.mappable-params.iml.json",
+                    "interface": "modules/get-user-by-handle/get-user-by-handle.interface.iml.json",
+                    "samples": "modules/get-user-by-handle/get-user-by-handle.samples.iml.json",
+                    "scope": "modules/get-user-by-handle/get-user-by-handle.scope.iml.json"
+                }
+            },
+            "searchUsers": {
+                "label": "search-users",
+                "description": "Search for users that match the given query",
+                "moduleType": "search",
+                "connection": null,
+                "altConnection": null,
+                "codeFiles": {
+                    "communication": "modules/search-users/search-users.communication.iml.json",
+                    "staticParams": "modules/search-users/search-users.static-params.iml.json",
+                    "mappableParams": "modules/search-users/search-users.mappable-params.iml.json",
+                    "interface": "modules/search-users/search-users.interface.iml.json",
+                    "samples": "modules/search-users/search-users.samples.iml.json",
+                    "scope": "modules/search-users/search-users.scope.iml.json"
+                }
+            }
+        },
+        "function": {},
+        "rpc": {},
+        "webhook": {}
+    },
+    "origins": [
+        {
+            "label": "Origin",
+            "baseUrl": "https://us1.make.com/api",
+            "appId": "audius-app-n80vf1",
+            "appVersion": 1,
+            "idMapping": {
+                "connection": [],
+                "module": [
+                    {
+                        "local": "getAITracksByHandle",
+                        "remote": "getAITracksByHandle"
+                    },
+                    {
+                        "local": "getAuthorizedApps",
+                        "remote": "getAuthorizedApps"
+                    },
+                    {
+                        "local": "getConnectedWallets",
+                        "remote": "getConnectedWallets"
+                    },
+                    {
+                        "local": "getFavorites",
+                        "remote": "getFavorites"
+                    },
+                    {
+                        "local": "getFollowers",
+                        "remote": "getFollowers"
+                    },
+                    {
+                        "local": "getFollowering",
+                        "remote": "getFollowering"
+                    },
+                    {
+                        "local": "getMostUsedTags",
+                        "remote": "getMostUsedTags"
+                    },
+                    {
+                        "local": "getRelatedUsers",
+                        "remote": "getRelatedUsers"
+                    },
+                    {
+                        "local": "getReposts",
+                        "remote": "getReposts"
+                    },
+                    {
+                        "local": "getSubscribers",
+                        "remote": "getSubscribers"
+                    },
+                    {
+                        "local": "getSupportedUsers",
+                        "remote": "getSupportedUsers"
+                    },
+                    {
+                        "local": "getSupporters",
+                        "remote": "getSupporters"
+                    },
+                    {
+                        "local": "getTracksByUser",
+                        "remote": "getTracksByUser"
+                    },
+                    {
+                        "local": "getUser",
+                        "remote": "getUser"
+                    },
+                    {
+                        "local": "getUserByHandle",
+                        "remote": "getUserByHandle"
+                    },
+                    {
+                        "local": "searchUsers",
+                        "remote": "searchUsers"
+                    }
+                ],
+                "function": [],
+                "rpc": [],
+                "webhook": []
+            },
+            "apikeyFile": "../.secrets/apikey"
+        }
+    ]
+}
